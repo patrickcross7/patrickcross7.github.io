@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e0b6cfa341.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Patrick</span><br>Cross at Virginia Tech</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/portrait1.png" class="logo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>My name is Patrick Cross, a dedicated and ambitious computer science student at Virginia Polytechnic and State University. With a passion for software development, data science, cloud computing, AI/ML, and cybersecurity, I am constantly exploring innovative solutions in these fields.
+
+                        Throughout my academic journey, I have acquired a strong foundation in software design, data structures, and problem-solving. I have had the opportunity to delve into diverse projects and collaborate with talented professionals, which has taught me the importance of pushing boundaries, fortifying proactive defense strategies, and authoring comprehensive reports for informed decision-making.
+                        
+                        Additionally, I have been actively involved in various extra-curricular activities such as the UX Design Team at VT Hacks, the AI/ML Club, and the Leetcode Club. These engagements have nurtured my passion for continuous learning and collaboration within the tech community.
+                        
+                        My website serves as a platform to showcase my skills, projects, and experiences. I am excited to share my journey and contribute to the ever-evolving world of technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AI/ML</span><br>Developing machine learning models to test and train</li>
+                            <li><span>Cybersecurity Research</span><br>Researching various methods of securing data and attributability</li>
+                            <li><span>Cloud Development</span><br>Working with AWS to test the limits of security and system development in Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2023 - Current</span><br>Software Development Intern at Parsons Corporation/Blackhorse Solutions</li>
+                            <li><span>September 2022 - January 2023</span><br>RAAIDS Undergraduate Researcher</li>
+                            <li><span>May 2022 - August 2022</span><br>Software Engineer Intern at nrgdenterprise inc. </li>
+                            <li><span>June 2021 - August 2021</span><br>IT Intern at Novitium Pharmaceuticals</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>August 2021 - May 2025</span><br>Bachelors of Science in Computer Science at Virginia Polytechnic Institute and State University</li>
+                            <li><span>GPA</span><br>3.70</li>
+                            <li><span>Relevant Coursework</span><br>Software Design and Data Structures, Intro to Computer Organization, Problem Solving in CS, Intro to Linear Algebra, Intro to Discrete Math, Applied Combinatorics and Graph Theory</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Services -->
+<div id = "services">
+    <div class="container">
+        <h1 class = "sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>AI/ML Development</h2>
+                <p> With a strong background in computer science and a focus on artificial intelligence and machine learning (AI/ML), 
+                    I offer a range of expertise in this exciting field. Through my academic journey and professional experiences, 
+                    I have developed a deep understanding of AI/ML concepts and techniques. 
+                    I am skilled in developing and training machine learning models, utilizing libraries such as Pandas and NumPy for data analysis, 
+                    and creating simulation environments for testing and evaluation. 
+                    I have also gained practical experience in applying AI/ML to real-world scenarios, 
+                    including developing solutions for precise tracking and surveillance operations. 
+                    With a commitment to staying up-to-date with the latest advancements in AI/ML, 
+                    I am dedicated to providing innovative and effective solutions that leverage the power of artificial intelligence to drive success in various domains.
+
+                </p>
+                <a href="#"> learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-lock"></i>
+                <h2>Cybersecurity Research </h2>
+                <p>As a proficient cloud developer,
+                     I bring a comprehensive skill set to help businesses harness the power of cloud computing. 
+                     With hands-on experience working with AWS (Amazon Web Services), 
+                     I have successfully developed and deployed secure and scalable cloud solutions. 
+                     My expertise includes leveraging services such as EC2 instances, S3 storage, and Lambda functions to build robust and efficient systems.
+                     I have a strong command of cloud architecture, enabling me to design and implement cloud-native applications that optimize performance and reliability.
+                    Whether you need assistance with cloud migration, serverless computing, or infrastructure management, 
+                    I am dedicated to delivering cutting-edge solutions that align with your business goals.</p>
+                    <a href="#"> learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                <h2>Cloud Development</h2>
+                <p>With a passion for securing data and mitigating threats, 
+                    I offer specialized expertise in cybersecurity research. 
+                    Through my academic pursuits and professional experiences, 
+                    I have gained in-depth knowledge of the latest cybersecurity methodologies and technologies. 
+                    I have conducted extensive research on securing data integrity, confidentiality, and attributability. 
+                    I am well-versed in identifying vulnerabilities, performing risk assessments, and developing robust defense strategies.
+                     My experience includes exploring advanced encryption techniques, network security protocols, and threat intelligence analysis.
+                      By staying updated with emerging cybersecurity trends, 
+                      I am committed to providing tailored solutions that protect your digital assets and ensure the integrity of your systems.</p>
+                    <a href="#"> learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+    <div class = "container">
+        <div class = "row">
+            <div class = "contact-left">
+                <h1 class = "sub-title">Contact Me!</h1>
+                <p>Student/Business Email: patrickcross7@vt.edu <i class="fa-solid fa-envelope"></i></p>
+                <p>Personal Email: patrickcross9@gmail.com <i class="fa-solid fa-envelope"></i></p>
+                <p>Linkedin: https://linkedin.com/in/patrickrajcross <a href="https://linkedin.com/in/patrickrajcross"><i class="fa-brands fa-linkedin"></i></a></p>
+                <a href = "images/Resume_PatrickCross_July2023.pdf" download class ="btn btn2">Download Resume</a>
+            </div>
+            <div class = "contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder= "Your Message"></textarea>
+                    <button type = "submit" class = "btn btn2 ">Submit</button>
+                </form>
+                <span id = "msg"></span>
+            </div>
+        </div>
+       
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzRnK4QI9Dd-RDJIEyScxFiG6NMllOLVHBL_oty2NE01L0v_Dd0CLReb0mmmuBH_CIW/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+            msg.innerHTML = "Message sent successfully" 
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
