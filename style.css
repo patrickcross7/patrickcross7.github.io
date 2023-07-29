@@ -179,7 +179,7 @@ i.fa-solid, i.fa-brands {
   
 .link {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #4b91f1;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -188,7 +188,7 @@ i.fa-solid, i.fa-brands {
   }
   
 .link:hover {
-    background-color: #0056b3;
+    background-color: #4b91f1;
   }
 
 /*--------Services---------*/
