@@ -108,6 +108,11 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 15px;
 }
+
+i.fa-solid, i.fa-brands {
+    font-size: 30px; /* Change the size to your desired value */
+}
+
 .about-col-2{
     flex-basis: 60%;
 }
@@ -130,6 +135,7 @@ nav ul li a:hover::after{
     cursor:pointer;
     position: relative;
 }
+
 
 .tab-links::after {
     content: '';
@@ -164,6 +170,26 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+
+.links-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: none;
+  }
+  
+.link:hover {
+    background-color: #0056b3;
+  }
 
 /*--------Services---------*/
 #services {
@@ -249,7 +275,7 @@ nav ul li a:hover::after{
 }
 
 form input, form textarea{
-    width: 100%;
+    width: 286%;
     border: 0;
     outline: none;
     background: #262626;
@@ -266,4 +292,8 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
-
+#msg{
+    color:#4b91f1;
+    margin-top: -20px;
+    display: block;
+}
