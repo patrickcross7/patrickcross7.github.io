@@ -189,6 +189,8 @@ i.fa-solid, i.fa-brands {
   
 .link:hover {
     background-color: #1556b1;
+    transform: translateY(5px);
+    transition: background 0.5s;
   }
 
 /*--------Services---------*/
@@ -262,12 +264,16 @@ i.fa-solid, i.fa-brands {
 }
 
 .btn:hover{
-    background: #4b91f1;
+    background: #1556b1;
 }
 
 .btn.btn2{
     display: inline-block;
     background:#4b91f1;
+}
+
+.btn.btn2:hover{
+    background:#1556b1
 }
 
 .contact-right{
